@@ -6,7 +6,7 @@ public class Mainclass {
 
         try {
             int k = 1;
-            int arrayArray[][] = new int[5][5];
+            int arrayArray[][] = new int[7][7];
             WorkWithArray.fillingOfDiagonal(arrayArray, k);
         } catch (Exception e) {
             System.out.println("Error 1 = " + e);

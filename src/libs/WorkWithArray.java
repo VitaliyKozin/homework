@@ -11,13 +11,16 @@ public class WorkWithArray {
             for (int j = 0; j < arrayArray[i].length; j++) {
 
 
-                if (i == j) {
+                if (j==arrayArray.length-1-i) {
                     arrayArray[i][j] = z;
                 }
                 /*else if (j==arrayArray.length-1-i){ //Зарезервирована правая диагональ
                     arrayArray[i][j] = z;
-                } */
-
+                }
+                if (i == j) {
+                    arrayArray[i][j] = z;
+                }
+                */
                 System.out.print(" " + arrayArray[i][j]);
             }
 
