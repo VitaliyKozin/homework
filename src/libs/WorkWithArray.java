@@ -1,7 +1,7 @@
 package libs;
 
 public class WorkWithArray {
-    public static void fillingOfDiagonal(int arrayArray[][], int z) {
+    public static void fillingOfDiagonal(int[][] arrayArray, int z) {
         for (int i = 0; i < arrayArray.length; i++) {
 
             if (arrayArray.length != arrayArray[i].length) {
